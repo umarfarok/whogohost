@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  
+.header__container{
+    height: 60px;
+    background-color: #1B2FC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    object-fit: contain;
+    height: 40px;
+}
+
+.nav__hold{
+    color: white;
+}
+
+span{
+    margin-right: 20px;
+}
+.header__container2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: #1B2FC7;
+    padding: 20px 0px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.navbar-brand{
+    margin-right: 500px;
+}
+
+.hero__container{
+    height: 400px;
+    background-color: #1B2FC7;
+    border-top: 1px solid white;
+}
+
+.hero__container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .navbar-brand{
+        margin-right: 130px;
+    }
+}
+  
+  .support {
+    height: 50px;
+    background-color: #061375;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .supportHolder {
+    width: 85%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navigations1 {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigations2 {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navigations1 span {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+  }
+  
+  .navigations2 span {
+    color: white;
+  }
+  
+  .spanIcon {
+    height: 17px;
+    width: 17px;
+    object-fit: contain;
+  }
+  .naira {
+    text-decoration: line-through;
+  }
+  .accountIcon {
+    height: 17px;
+    width: 17px;
+    object-fit: contain;
+  }
+  
+  .phoneIcon {
+    height: 12px;
+    width: 12px;
+    object-fit: contain;
+    margin-right: 5px;
+  }
+  .emailIcon {
+    height: 12px;
+    width: 12px;
+    object-fit: contain;
+    margin-right: 5px;
+  }
+  
+  .header {
+    background-color: #1b2fc7;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+  .headerHolder {
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigations span {
+    color: white;
+    font-size: 17px;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 150px;
+    object-fit: contain;
+  }
+  .downIcon {
+    height: 7px;
+    width: 7px;
+    object-fit: contain;
+    margin-left: 5px;
+  }
+  
+  .hero {
+    background-color: #1b2fc7;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .heroholder {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heroContainer {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .heroContainer p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+    color: white;
+  }
+  
+  .heroContainer span {
+    color: white;
+    font-size: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    transition: 0.7s ease;
+  }
+  
+  .inputDiv {
+    height: 60px;
+    border: 1px solid white;
+    width: inherit;
+    border-radius: 5px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .searchInput {
+    width: 90%;
+    height: 45px;
+    border: 0;
+    outline: none;
+    background-color: inherit;
+  }
+  .search {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+  }
+  
+  .searchInput::placeholder {
+    font-size: 18px;
+    color: rgb(204, 199, 199);
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  .services__container{
+    background-color: #F9F8F8;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+  position: relative;
+  }
+  
+  .services__container2{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -100px;
+    flex-wrap: wrap;
+  }
+  
+  .card{
+    height: 200px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 10px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .navigations {
+      /* display: flex; */
+      position: fixed;
+      left: -100%;
+      top: 130px;
+      flex-direction: column;
+      background-color: #1b2fc7;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      height: calc(100vh - 70px);
+    }
+    .navigations span {
+      margin: 16px 0;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 50px;
+    }
+    .navigations.active {
+      left: 0;
+    }
+  
+    .services__container2{
+      padding-top: 150px;
+    }
+    .card{
+     width: 100%;
+    }
+  }
